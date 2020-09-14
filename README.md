@@ -1,6 +1,8 @@
 # Chatroom
 An IRC-like chatroom implemented using React for frontend and Node.js with Express for backend server. 
+
 **Note: I did not implement the Express chatserver - just the React frontend which utilises the server.**
+
 **Also note: This project was done in quite a hurry and the emphasis was on the chatroom's functionality rather than its looks. :)**
 
 ## Installation
@@ -31,5 +33,5 @@ An op can kick users from the chat room. Each user has a kick button in the user
 ### Ban users
 An op can ban users from the chat room. Each user has a ban button in the user list on the left side of the page.
 
-## Bugs
+## Known issues
 When an op kicks or bans a user from the room, the list does not render correctly. How ever when clicking the room again, or switching to another room and then back. The list will be correctly rendered.
