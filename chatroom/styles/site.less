@@ -1,0 +1,212 @@
+// Insert your styles here, using LESS
+
+* {
+    font-family: consolas;
+}
+
+.app {
+    height: 135px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 150px;
+    padding: 12px;
+}
+
+#loginBtn {
+    margin-left: 100px;
+    margin-top: 12px;
+}
+
+.loginError {
+    display: none;
+}
+
+.loginErrorRender {
+    color: red;
+    font-family: arial;
+    margin-top: 30px;
+}
+
+.roomErrorRender {
+    color: red;
+    font-family: arial;
+    margin-top: 30px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+.container {
+    height: 800px;
+    width: 1504px;
+    background-color: blue;
+}
+
+// HEADER COMPONENT STARTS HERE
+.Header {
+    background-color: #555;
+    height: 133px;
+    width: 93%;
+    margin-left: 53px;
+}
+
+.privMsg {
+    visibility: hidden;
+}
+
+.PrivateMessage {
+    height: 50px;
+    width: 250px;
+    float: left;
+    margin-left: 580px;
+    margin-top: 80px;
+}
+
+.UserInfo {
+    height: 87px;
+    width: 307px;
+    float: right;
+    margin: 20px;
+    padding: 15px;
+    font-size: 30px;
+    color: #ff7400;
+    margin-top: 26px;
+}
+
+// INNERCONTAINER STARTS HERE
+.InnerContainer {
+    background-color: gray;
+    width: 93%;
+    height: 550px;
+    margin-left: 53px;
+}
+
+.Chat-room {
+    margin-left: 250px;
+    height: 549px;
+    width: 912px;
+    background-color: #ff7400;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 2px 2px 10px rgba(155, 155, 155, 0.2);
+    text-align: center;
+}
+
+#roomTitle {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: consolas;
+}
+
+textarea {
+    padding-bottom: 470px;
+    resize: none;
+    font-family: consolas;
+}
+
+#inputBox {
+    width: 846px;
+}
+
+#inputBtn {
+    height: 30px;
+}
+
+.input-box {
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+}
+
+.input {
+    &.input-big {
+        width: 89%;
+        font-size: 1.2em;
+    }
+}
+
+.btn {
+    border-radius: 0px;
+    font-size: 1.2em;
+    background-color: rgba(50, 200, 50, .6);
+    color: white;
+}
+
+
+.pull-right {
+        float: right;
+    }
+
+.ChatRoomList {
+    background-color: gray;
+    float:left;
+    height: 100%;
+    width: 250px;
+}
+
+#roomListSelectable {
+    width: 251px;
+    height: 385px;
+    margin-top: 5px;
+    font-family: consolas;
+}
+
+#roomButton {
+    margin-right: 5px;
+    margin-top: 5px;
+    float: right;
+}
+
+.listTitle {
+    padding-left: 5px;
+}
+
+.ChatRoomListItem {
+    background-color: red;
+    padding-top: 4px;
+    margin-top: 8px;
+}
+
+.ChatRoomUserList {
+    background-color: gray;
+    float:right;
+    height: 100%;
+    width: 250px;
+}
+
+.ChatRoomUserListItem {
+    background-color: brown;
+    padding-top: 4px;
+    margin-top: 8px;
+}
+
+.ChatRoom {
+    background-color: orange;
+    height: 500px;
+    width: 855px;
+    margin-left: 270px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.ChatInput {
+    background-color: gold;
+    position: absolute;
+    width: 99.6%;
+    bottom: 0;
+}
+
+#userInput {
+    width: 100%;
+}
+
+// CHAT ROOM OPTION Component
+.ChatRoomOptions {
+    background-color: #890932;
+    width: 330px;
+    height: 74px;
+    margin-left: 1123px;
+    margin-top: 10px;
+}
